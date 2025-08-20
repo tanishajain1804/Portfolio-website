@@ -1,0 +1,64 @@
+.navbar {
+  background-color: navy;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+
+
+.navbar-logo {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #00f7ff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.logo-symbol {
+  color: #ff004f;
+  font-size: 22px;
+}
+
+.dot {
+  color: #ff004f;
+  font-weight: 900;
+}
+
+
+
+.navbar-links {
+  display: flex;
+  flex-wrap: wrap;       /* important: allow wrapping */
+  justify-content: flex-end;
+  list-style: none;
+  gap: 16px;
+  max-width: 100%;
+  overflow-x: auto;       /* allow scroll if overflow */
+}
+
+.navbar-links li {
+  white-space: nowrap;    /* keep buttons on one line */
+}
+
+.navbar-links li a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  background-color: #00f7ff;
+  color: black;
+}

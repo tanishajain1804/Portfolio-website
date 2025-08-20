@@ -1,0 +1,37 @@
+#contact {
+  background: #111;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #00f7ff;
+  font-size: 1rem;
+  background: #222;
+  color: white;
+}
+
+button {
+  padding: 12px;
+  background: #00f7ff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #00c0d1;
+  color: black;
+}
